@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+  background: #437373 url('file:///Users/lauren/Documents/Code/dbz.jpg') no-repeat top right;
+  position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+header{
+  padding: 20px 15px
+}
+.dbz{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+#top-nav{
+  float: right;
+}
+
+#top-nav a{
+  display: inline-block;
+  font-family: sans-serif;
+  color: rgba(242, 134, 39);
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+#top-nav a:hover{
+  color: rgba(242, 181, 167);
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 20px 20px
+}
+.jumbo{
+  padding: 200px 0;
+}
+.jumbo h1{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #black;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 1px 2px White;
+  animation: text 3s 1;
+  position: relative;
+}
+.jumbo h4{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: #F21B42;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-shadow: 2px 1px 2px black;
+  position: relative;
+}
+.projects div.box{
+  display:inline-block;
+  background-color: rgba(242, 27, 66);
+  height:250px;
+  width:250px;
+  margin: 20px;
+}
+.projects{
+  padding: 20px 100px;
+  height: 1200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 20px, 20px, red;
+  /*filter: blur(4px); I want the black box blurred but it's not workng. When i use the
+  filter it blurs my images inside of them. 
+
+
+}
+
+ @keyframes text {
+  0%{
+    color:white;
+    margin-bottom: -50px;
+  }
+}
