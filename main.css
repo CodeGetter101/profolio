@@ -27,12 +27,14 @@ header{
   color: rgba(242, 134, 39);
   text-decoration: none;
   padding: 20px 20px;
+
+
 }
 
 #top-nav a:hover{
   color: rgba(242, 181, 167);
   font-family: sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   padding: 20px 20px
 }
 .jumbo{
@@ -64,23 +66,28 @@ header{
   height:250px;
   width:250px;
   margin: 20px;
+  z-index: 40px;
+  position:inherit;
+  
 }
+
 .projects{
+  background: inherit;
   padding: 20px 100px;
   height: 1200px;
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 200px;
   text-align: left;
-  background-color: rgba(0, 0, 0, .5);
-  box-shadow: 20px, 20px, red;
-  /*filter: blur(4px); I want the black box blurred but it's not workng. When i use the
-  filter it blurs my images inside of them. 
-
+  box-shadow:  inset 1px 3px 15px rgba(255, 255, 255, 0.3);
+  overflow: visible;
+  background-color: rgba(0,0,0,0.5);
+  background: inherit;
+  position: relative;
+  filter: blur(5px);
 
 }
-
- @keyframes text {
+@keyframes text {
   0%{
     color:white;
     margin-bottom: -50px;
